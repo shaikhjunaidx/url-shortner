@@ -9,11 +9,11 @@ import (
 
 var Ctx = context.Background()
 
-func createClient(dbNumber int) *redis.Client{
+func CreateClient(dbNumber int) *redis.Client {
 	rdb := redis.NewClient(&redis.Options{
-		Addr: os.Getenv("DB_ADDR"),
+		Addr:     os.Getenv("DB_ADDR"),
 		Password: os.Getenv("DB_PASS"),
-		DB: dbNumber,
+		DB:       dbNumber,
 	})
 
 	return rdb
