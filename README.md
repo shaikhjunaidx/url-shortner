@@ -22,7 +22,7 @@ A URL shortener service built with Go, Redis, and Go Fiber. This service allows 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/url-shortener.git
+    git clone https://github.com/shaikhjunaidx/url-shortener.git
     cd url-shortener
     ```
 

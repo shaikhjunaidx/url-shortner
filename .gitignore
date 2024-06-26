@@ -1,0 +1,47 @@
+# Ignore .env file
+.env
+
+# Ignore .data folder
+.data/
+
+# Other common ignores
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Binaries
+*.o
+*.a
+*.out
+*.log
+
+# Dependencies
+/vendor/
+/node_modules/
+/coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# Go specific
+*.exe
+*.test
+*.mod
+*.sum
+*.exe
