@@ -29,7 +29,7 @@ A URL shortener service built with Go, Redis, and Go Fiber. This service allows 
 2. Build and run the Docker containers:
 
     ```sh
-    docker-compose up --build
+    docker-compose up -d
     ```
 
 ## Configuration
